@@ -1,0 +1,47 @@
+{
+  "name": "behzadbabaei/paymentwall",
+  "description": "Paymentwall PHP Library. Paymentwall is the leading digital payments platform for globally monetizing digital goods and services.",
+  "version": "1.0.0",
+  "type": "library",
+  "homepage": "https://www.paymentwall.com/?source=gh",
+  "keywords": [
+    "paymentwall",
+    "api",
+    "payments",
+    "carrier billing",
+    "credit cards",
+    "alternative payments",
+    "monetization",
+    "recurring billing",
+    "payment processing"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Behzad Babaei",
+      "email": "behzadbabaei69@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2|^8",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "scripts": {
+    "test": [
+      "@composer install"
+    ]
+  },
+  "autoload": {
+    "psr-4": {
+      "BehzadBabaei\\PaymentWall\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
